@@ -29,6 +29,7 @@ To create an array, you need to known the length (or size) of the array in advan
  * Factorials of big numbers ----> [C++](/Code/C++/long_factorial.cpp)
  * Find duplicate in array ----> [C++](/Code/C++/Duplicate_in_array.cpp) | [Java](/Code/Java/dublicate.java)
  * Finding All subset ----> [C++](/Code/C++/Finding_all_subset.cpp)
+ * Finding closest number in array ----> [C++](/Code/C++/closest_number_in_array.cpp)
  * Insertion_at_start ----> [C++](/Code/C++/insertion_at_start.cpp) | [Java](/Code/Java/insertion_at_start.java) | [Python](/Code/Python/insertion_at_start.py)
  * Inverse of Array ----> [Java](/Code/Java/inverseofarray.java) | [C++](Code/C++/inverse_of_an_array.cpp) | [Python](/Code/Python/inverseArray.py)
  * Job Sequencing Problem ----> [C++](/Code/C++/job_sequencing_problem.cpp)

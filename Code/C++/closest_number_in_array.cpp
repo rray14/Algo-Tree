@@ -1,17 +1,17 @@
 /*
-Suppose a sorted array, and a target number is given we can find the closest number from the target value. 
-For example if the array is 1,3,4,7,9 and target number is 5, then the closest number to it is 4.
-We can solve this by linearly going through the array and keep track of the difference between the target number and current number in array and finding the one with minimum difference.
+    Suppose a sorted array, and a target number is given we can find the closest number from the target value. 
+    For example if the array is 1,3,4,7,9 and target number is 5, then the closest number to it is 4.
+    We can solve this by linearly going through the array and keep track of the difference between the target number and current number in array and finding the one with minimum difference.
 
-Find middle of current array
-The cases that could arise are:
-* arr[mid]==target, then arr[mid] is the closest number
-* arr[mid]>target, then
-    * target between arr[mid-1] and arr[mid], so simply return minimum of both, or
-    * target less than both, then update variable high
-* arr[]<target, then
-    * target between arr[mid] and arr[mid+1], return minimum of both, or
-    * arr[mid] and arr[mid+1] greater than target, then update variable low
+    Find middle of current array
+    The cases that could arise are:
+    * arr[mid]==target, then arr[mid] is the closest number
+    * arr[mid]>target, then
+        * target between arr[mid-1] and arr[mid], so simply return minimum of both, or
+        * target less than both, then update variable high
+    * arr[]<target, then
+        * target between arr[mid] and arr[mid+1], return minimum of both, or
+        * arr[mid] and arr[mid+1] greater than target, then update variable low
 
 */
 
