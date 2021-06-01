@@ -33,7 +33,7 @@ int find(int arr[],int target,int n){
     if(target<=arr[0]){
         return arr[0];
     }
-    else if(target>=arr[n-1]){
+    if(target>=arr[n-1]){
         return arr[n-1];
     }
     
@@ -49,8 +49,7 @@ int find(int arr[],int target,int n){
             //If target lies between arr[mid] and arrr[mid-1], take min of the two
             if(mid>0 && arr[mid-1]<target)
                 return min(arr[mid-1],arr[mid],target);
-            //else
-            high=mid;
+                high=mid;
         }
 
         //If target is greater than middle element, then search right portion
